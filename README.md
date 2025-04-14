@@ -75,7 +75,6 @@ import torch.nn as nn
 import math
 import torch.nn.functional as F
 
-# Swin Transformer Layer
 class SwinTransformerLayer(nn.Module):
     def __init__(self, dim, num_heads, window_size, shift_size=0):
         super(SwinTransformerLayer, self).__init__()
@@ -118,7 +117,6 @@ class SwinTransformerLayer(nn.Module):
         x = x.transpose(1, 2).reshape(B, C, H, W)
         return x
 
-# Window Attention Mechanism
 class WindowAttention(nn.Module):
     def __init__(self, dim, num_heads, window_size):
         super(WindowAttention, self).__init__()
@@ -147,7 +145,6 @@ class WindowAttention(nn.Module):
         out = self.proj_drop(out)
         return out
 
-# SwinIR Model
 class SwinIR(nn.Module):
     def __init__(self, in_chans=3, embed_dim=64, depths=4, num_heads=8, upscale=4, window_size=8):
         super(SwinIR, self).__init__()
@@ -189,13 +186,10 @@ class SwinIR(nn.Module):
 
         return x
 
-# Test the forward pass with a dummy input
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = SwinIR(in_chans=3, embed_dim=64, depths=4, num_heads=8, upscale=4, window_size=8).to(device)
 
-# Generate a dummy low-resolution image
 lr_image = torch.randn(1, 3, 128, 128).to(device)
 
-# Forward pass
 sr_image = model(lr_image)
 print(sr_image.shape)  # Should output (1, 3, 512, 512) if upscale_factor=4
