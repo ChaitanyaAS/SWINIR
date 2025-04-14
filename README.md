@@ -5,6 +5,8 @@
 SwinIR is a pure transformer-based architecture inspired by the **Swin Transformer (Shifted Window Transformer)** for image restoration tasks such as super-resolution. 
 This model uses window-based self-attention to learn image features effectively and efficiently, making it suitable for enhancing image resolution.
 
+# REFERED RESEARCH PAPER LINEK : https://arxiv.org/pdf/2108.10257
+
 ## Features
 1.Pure Transformer-based Architecture: Utilizes the Swin Transformer model for image restoration, specifically designed for super-resolution tasks.
 2.Window-based Attention: The attention mechanism is applied in local windows, which makes the model computationally efficient while retaining performance.
