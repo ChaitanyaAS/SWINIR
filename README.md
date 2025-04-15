@@ -22,7 +22,7 @@ project/ │ ├── DIV2K/ │ ├── DIV2K_train_HR/ │ └── DIV2K_
 
 ---
 
-## 🛠 Requirements
+##  Requirements
 
 Install the dependencies using pip:
 
@@ -58,6 +58,6 @@ Only the HR images are used (LR images are generated on-the-fly via downscaling)
 The model uses L1 loss.
 Training can be further improved with more epochs and a deeper architecture.
 
-🧑‍💻 Author
+## Author
 Created by Chaitanya A S 
 Feel free to reach out for questions or collaboration ideas!
