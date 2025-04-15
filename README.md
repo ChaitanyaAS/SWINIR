@@ -8,7 +8,7 @@ This project implements a simplified version of the SwinIR (Swin Transformer for
 
 - Uses PyTorch for model development and training
 - Simplified SwinIR-style CNN architecture (not full Swin Transformer)
-- DIV2K dataset loader with random patch extraction and downscaling
+- DIV2K dataset loader with random patch extraction and downscaling 
 - Image super-resolution with upscaling factor 4×
 - PSNR and SSIM evaluation metrics
 - Visualization of low-res, super-res, and high-res images
