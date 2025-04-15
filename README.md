@@ -38,8 +38,8 @@ Validation: DIV2K_valid_HR
  python swinir_sr.py
 
 ## Evaluation
-PSNR: 27.34 dB
-SSIM: 0.8125
+PSNR: 17.87 dB
+SSIM: 0.5048
 
 ## Visualization
 The script includes a function to visualize:
