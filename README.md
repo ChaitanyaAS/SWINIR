@@ -1,4 +1,4 @@
-### SwinIR-Like Super-Resolution on DIV2K Dataset
+## SwinIR-Like Super-Resolution on DIV2K Dataset
 🛠 Team Project Overview
 We are a team of 4 who collaborated to build and train advanced Image Restoration (IR) models.
 Our focus was on enhancing image resolution using state-of-the-art Transformer and GAN-based architectures.
