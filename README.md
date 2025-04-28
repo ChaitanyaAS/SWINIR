@@ -2,6 +2,7 @@
 🛠 Team Project Overview
 We are a team of 4 who collaborated to build and train advanced Image Restoration (IR) models.
 Our focus was on enhancing image resolution using state-of-the-art Transformer and GAN-based architectures.
+Additionally, we have written a research paper detailing our work and the results we achieved with SwinIR and Real-ESRGAN models. The paper discusses the methodology, experimental setup, and findings from the training on the DIV2K and Flickr2K datasets.
 
 ## Models We Worked On:
 SwinIR (Transformer-based model for image super-resolution)
